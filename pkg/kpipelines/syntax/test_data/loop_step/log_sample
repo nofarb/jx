@@ -1,0 +1,35 @@
+Starting execution of loop [loop_over_programming_languages] with ID [ID_1]. loop [loop_over_languages] will iterate over variable [LANGUAGE] with values [maven, gradle, nodejs]
+
+Iteration [1] of loop [loop_over_programming_languages] with ID [ID_1] with value [maven] for variable [LANGUAGE]
+[log echo hello maven]
+
+Starting execution of loop [loop_over_distributions] with ID [ID_2]. loop [loop_over_distributions] will iterate over variable [DISTRO] with values [fedora, ubuntu, debian]
+Iteration [1] of loop  [loop_over_distributions] with ID [ID_2]  with value [fedora] for variable [DISTRO]
+[log echo running maven on fedora ]
+Iteration [2] of loop  [loop_over_distributions] with ID [ID_2] with value [ubuntu] for variable [DISTRO]
+[log echo running maven on ubuntu ]
+Iteration [3] of loop   [loop_over_distributions] with ID [ID_2] with value [debian] for variable [DISTRO]
+[log echo running maven on debian ]
+
+Iteration [2] of loop [loop_over_programming_languages] with ID [ID_1] with value [gradle] for variable [LANGUAGE]
+[log echo hello gradle]
+
+Starting execution of loop [loop_over_distributions] with ID [ID_3] . loop [loop_over_distributions] will iterate over variable [DISTRO] with values [fedora, ubuntu, debian]
+Iteration [1] of loop  [loop_over_distributions] with ID [ID_3] with value [fedora] for variable [DISTRO]
+[log echo running gradle on fedora ]
+Iteration [2] of loop  [loop_over_distributions] with ID [ID_3] with value [ubuntu] for variable [DISTRO]
+[log echo running gradle on ubuntu ]
+Iteration [3] of loop  [loop_over_distributions] with ID [ID_3] with value [debian] for variable [DISTRO]
+[log echo running gradle on debian ]
+
+
+Iteration [3] of loop [loop_over_programming_languages] with ID [ID_1] with value [nodejs] for variable [LANGUAGE]
+[log echo hello nodejs]
+
+Starting execution of loop [loop_over_distributions] with ID [ID_4]. loop [loop_over_distributions] will iterate over variable [DISTRO] with values [fedora, ubuntu, debian]
+Iteration [1] of loop  [loop_over_distributions] with ID [ID_4] with value [fedora] for variable [DISTRO]
+[log echo running nodejs on fedora ]
+Iteration [2] of loop  [loop_over_distributions] with ID [ID_4] with value [ubuntu] for variable [DISTRO]
+[log echo running nodejs on ubuntu ]
+Iteration [3] of loop  [loop_over_distributions] with ID [ID_4] with value [debian] for variable [DISTRO]
+[log echo running nodejs on debian ]
